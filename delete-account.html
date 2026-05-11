@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliminar cuenta — PadelTop</title>
+  <meta name="description" content="Cómo eliminar tu cuenta de PadelTop y los datos asociados." />
+  <style>
+    :root {
+      --bg: #0A0B10;
+      --surface: #14161E;
+      --text: #F5F6FA;
+      --text-secondary: #A0A4B0;
+      --accent: #00E6B8;
+      --border: #2A2D38;
+      --danger: #FF5C5C;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    header {
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .brand-dot {
+      width: 10px;
+      height: 10px;
+      background: var(--accent);
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .updated {
+      color: var(--text-secondary);
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+    p, li {
+      color: var(--text-secondary);
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    strong { color: var(--text); font-weight: 600; }
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 8px; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .card-warning {
+      background: rgba(255, 92, 92, 0.08);
+      border-color: rgba(255, 92, 92, 0.3);
+    }
+    .card-warning p { color: var(--text); }
+    .step-list { list-style: none; padding: 0; }
+    .step-list li {
+      display: flex;
+      gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+    .step-list li:last-child { border-bottom: none; }
+    .step-number {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .step-content { flex: 1; padding-top: 2px; }
+    .step-content strong { display: block; margin-bottom: 4px; }
+    .step-content span { color: var(--text-secondary); font-size: 15px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+    .email-box {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-family: ui-monospace, "SF Mono", Consolas, monospace;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 13px;
+      text-align: center;
+    }
+    footer a { color: var(--text-secondary); }
+    @media (max-width: 600px) {
+      h1 { font-size: 28px; }
+      .container { padding: 32px 20px 64px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>PadelTop</span>
+      </div>
+      <h1>Eliminar tu cuenta</h1>
+      <p class="updated">Última actualización: 11 de mayo de 2026</p>
+    </header>
+
+    <p>
+      En <strong>PadelTop</strong> respetamos tu derecho a controlar tus datos. En esta página te explicamos cómo eliminar tu cuenta y qué información se borra al hacerlo.
+    </p>
+
+    <h2>Opción 1 — Desde la aplicación (recomendada)</h2>
+    <p>La forma más rápida y directa de eliminar tu cuenta es desde la propia app:</p>
+
+    <div class="card">
+      <ol class="step-list">
+        <li>
+          <span class="step-number">1</span>
+          <div class="step-content">
+            <strong>Abre PadelTop</strong>
+            <span>Inicia sesión con la cuenta que quieras eliminar.</span>
+          </div>
+        </li>
+        <li>
+          <span class="step-number">2</span>
+          <div class="step-content">
+            <strong>Ve a Ajustes</strong>
+            <span>Toca el icono de tu perfil y entra en la pantalla de Ajustes.</span>
+          </div>
+        </li>
+        <li>
+          <span class="step-number">3</span>
+          <div class="step-content">
+            <strong>Pulsa "Eliminar cuenta"</strong>
+            <span>Baja hasta el final de la pantalla y pulsa el botón rojo "Eliminar cuenta".</span>
+          </div>
+        </li>
+        <li>
+          <span class="step-number">4</span>
+          <div class="step-content">
+            <strong>Confirma</strong>
+            <span>Confirma la acción en el diálogo. La eliminación es inmediata e irreversible.</span>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <h2>Opción 2 — Solicitarlo por email</h2>
+    <p>
+      Si no puedes acceder a la app o prefieres hacerlo por correo, envía un email desde la dirección con la que te registraste a:
+    </p>
+    <p>
+      <span class="email-box">padeltopsupport@gmail.com</span>
+    </p>
+    <p>
+      Indica en el asunto <strong>"Eliminar cuenta"</strong> y procesaremos tu solicitud en un plazo máximo de <strong>30 días</strong> (normalmente en menos de 72 horas).
+    </p>
+
+    <h2>Qué datos se eliminan</h2>
+    <p>Al eliminar tu cuenta, borramos de forma <strong>inmediata e irreversible</strong>:</p>
+    <ul>
+      <li>Tu información de cuenta (nombre, email, contraseña cifrada)</li>
+      <li>Tu foto de perfil (avatar)</li>
+      <li>Tus jugadores y torneos favoritos</li>
+      <li>Tus preferencias de notificaciones y tokens de dispositivo</li>
+      <li>Tu historial de uso dentro de la app</li>
+      <li>Las suscripciones gestionadas en nuestra base de datos</li>
+    </ul>
+
+    <h2>Qué datos se conservan</h2>
+    <p>Por motivos legales o técnicos, podemos conservar:</p>
+    <ul>
+      <li><strong>Registros anonimizados</strong> de errores y diagnóstico (Sentry), sin información personal identificable, durante un máximo de 90 días.</li>
+      <li><strong>Información fiscal y de facturación</strong> de suscripciones, si la hubo, durante el plazo que exige la legislación española (hasta 6 años).</li>
+      <li><strong>Suscripciones activas en App Store o Google Play:</strong> al eliminar tu cuenta dejarás de tener acceso, pero la suscripción seguirá activa hasta el final del periodo facturado. Para cancelarla, hazlo desde tu cuenta de Apple o Google.</li>
+    </ul>
+
+    <div class="card card-warning">
+      <p>
+        ⚠️ <strong>Esta acción no se puede deshacer.</strong> Una vez eliminada la cuenta, no podremos recuperar tus favoritos, preferencias ni historial. Si más adelante quieres volver a usar PadelTop, tendrás que crear una cuenta nueva.
+      </p>
+    </div>
+
+    <h2>¿Tienes dudas?</h2>
+    <p>
+      Si tienes cualquier pregunta sobre el proceso de eliminación o sobre tus datos, escríbenos a
+      <a href="mailto:padeltopsupport@gmail.com">padeltopsupport@gmail.com</a>
+      y te responderemos lo antes posible.
+    </p>
+
+    <footer>
+      <p>
+        © 2026 PadelTop ·
+        <a href="privacy-policy.html">Política de privacidad</a> ·
+        <a href="terms-of-use.html">Términos de uso</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
